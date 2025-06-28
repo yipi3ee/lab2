@@ -1,0 +1,1 @@
+Гарматюк Катерина Олександрівна, КВ-22, ЛР2 "Розробка функціональності Web-додатка мовою Javascript", URL на документ звіту на Google Drive :https://docs.google.com/document/d/12nDQHKFhPWCnBMvgEFYhzq34d9chXF-7/edit?usp=sharing&ouid=109380555018021053946&rtpof=true&sd=true
