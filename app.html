@@ -1,0 +1,51 @@
+<!-- app.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning Modes — Word Learner</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b64678;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo.png" alt="App Logo" width="40" class="me-2" />
+        Word Learner
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="app.html">Learn</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 text-center">
+    <h1 class="text-pink mb-4">Choose your mode</h1>
+    <div class="d-flex flex-column gap-3 align-items-center">
+      <a href="memorisation.html" class="btn btn-pink w-50">🧠 Memorisation</a>
+      <a href="repetition.html" class="btn btn-pink w-50">🔁 Repetition</a>
+      <a href="test.html" class="btn btn-pink w-50">📝 Test</a>
+    </div>
+  </main>
+
+  <footer class="text-white text-center py-3" style="background-color: #b64678;">
+    <small>© 2025 Word Learner</small>
+  </footer>
+
+  <script type="module" src="js/controller.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
